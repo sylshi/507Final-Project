@@ -1,5 +1,5 @@
 import json
-from tree import SearchTree
+from final_tree import SearchTree
 with open("restaurants.json",'r') as load_f:
     data_list = json.load(load_f)
 data_tree = SearchTree(data_list)
